@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(images/season.jpg);
+    background-size: 100% 100%;
+}
+
+#box {
+    padding: 29px 67px;
+    min-height: 300px;
+    background-color: #70cee8;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 20px;
+    border-style:solid ;
+}
+
+label {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#input{
+    width: 200px;
+    height: 50px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-style: solid;
+    border-radius: 30px;
+}
+#input:hover{
+    background: #057d0d;
+    color: #ed0fd7;
+}
+
+#conv {
+    width: 60px;
+    height: 50px;
+    background-color: rgb(227, 244, 98);
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-style: solid;
+    border-radius: 20px;
+}
+#conv:hover{
+    background: #ce099d;
+    color: #fdfafa;
+}
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+    }
+    
+    
+    .button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-style: solid;
+    }
+    
+    .button button:hover{
+    background: #860202;
+    color: #d2c08c;
+    }
+
+#output{
+    height: 50px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #d3a724;
+    border-color: #fdfafa;
+    border-style: solid;
+    border-radius: 30px;
+}
