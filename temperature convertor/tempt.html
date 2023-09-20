@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>KFC Temperature converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="box" onsubmit="calcTemp(); return false">
+            <label for="input"><b>KFC Temperature Convertor</b></label>
+            <br>
+            <input type="number" name="input" id="input" value="0">
+            <select name="conv" id="conv">
+                <option value="cel">&#176;<b>C</b></option>
+                <option value="fah">&#176;<b>F</b></option>
+            </select>
+            <br>
+            <div class="button">
+                <button>Convert</button>
+            </div>
+            <!---<input type="convert" name="input" id="convert"> --->
+            <br>
+            <span id="output"></span>
+        </form>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+
+</html>
