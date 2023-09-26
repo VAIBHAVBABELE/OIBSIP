@@ -1,2 +1,3 @@
 # OIBSIP
 Oasis Infobyte is a reputable cybersecurity company that not only specializes in cybersecurity services but also offers a comprehensive internship program in web development. With a strong emphasis on practical training and hands-on experience, this internship program is designed to provide individuals with the necessary skills and knowledge to excel in the field of web development.
+The internship program aims to bridge the gap between theoretical knowledge and practical application by allowing participants to work on real-world projects. They will have the chance to contribute to the development of websites and web applications, gaining valuable experience in coding, debugging, and troubleshooting.
